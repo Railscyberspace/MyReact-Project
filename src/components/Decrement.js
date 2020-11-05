@@ -1,44 +1,43 @@
+
 import React, { Component } from 'react'
 
-class Counter extends Component
+class Decrement extends Component
 {
     constructor(props)
     {
         super(props)
         this.state = {
-            count: 0
+            count: 200
         }
     }
-    increment()
+    Decrement()
     {
         this.setState({
-            count: this.state.count + 1
+            count: this.state.count - 1
+
         },
             () =>
             {
-                console.log('Callback Value', this.state.count)
+                console.log("SetBack Values", this.state.count)
             }
         )
         console.log(this.state.count)
     }
-
     render()
     {
         return (
             <div>
-                <div> Counts={this.state.count}</div>
-                <button onClick={() => this.increment()}>Increment</button>
+                <div>Counts={this.state.count}</div>
+                <button onClick={() => this.Decrement()}>Decrement</button>
             </div>
         )
     }
+
 }
 
-export default Counter
 
 
 
 
 
-
-
-
+export default Decrement 

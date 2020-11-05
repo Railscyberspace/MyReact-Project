@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.div{
+  font-size: 1000px;
+  color: blueviolet;
+}
+
+button{
+  margin: 5px;
+  padding: 8px;
+  color:gold;
+}
+
