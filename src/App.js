@@ -9,7 +9,7 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import Login from './components/Login'
 import ParentComponent from './components/ParentComponent'
-
+import UserGreeting from './components/UserGreeting'
 
 
 function App()
@@ -24,7 +24,7 @@ function App()
       <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
       <ParentComponent></ParentComponent>
-
+      <UserGreeting></UserGreeting>
 
 
     </div>
