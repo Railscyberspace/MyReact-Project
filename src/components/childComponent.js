@@ -1,6 +1,6 @@
 import React from 'react'
 
-function childComponent(props)
+function ChildComponent(props)
 {
     return (
         <div>
@@ -9,4 +9,6 @@ function childComponent(props)
     )
 }
 
-export default childComponent
+export default ChildComponent
+
+

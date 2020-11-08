@@ -8,7 +8,8 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import Login from './components/Login'
-import parentComponent from './components/parentComponent'
+import ParentComponent from './components/ParentComponent'
+
 
 
 function App()
@@ -22,7 +23,8 @@ function App()
       <Timer></Timer>
       <FunctionClick></FunctionClick>
       <ClassClick></ClassClick>
-      <parentComponent></parentComponent>
+      <ParentComponent></ParentComponent>
+
 
 
     </div>

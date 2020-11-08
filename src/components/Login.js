@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 class Login extends Component
 {
     constructor(props)
@@ -15,7 +13,8 @@ class Login extends Component
     clickHandler = () =>
     {
         this.setState({
-            message: "Login Sucessful"
+
+            message: "login Sucssful"
         })
     }
 
@@ -33,3 +32,10 @@ class Login extends Component
     }
 }
 export default Login
+
+
+
+
+
+
+
